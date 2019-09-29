@@ -1,0 +1,43 @@
+{
+    "name": "cylcode/manager",
+    "description": "manager 后台管理",
+    "type": "library",
+    "keywords": ["laravel", "manager", "bear", "form"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry",
+            "email": "502443279@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "cylcode\\manager\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+
+    },
+    "scripts": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "cylcode\\manager\\managerServiceProvider"
+            ]
+
+
+        }
+    }
+}
